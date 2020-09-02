@@ -1,0 +1,129 @@
+General Ideas
+
+An appraiser will come to your home for a small fee, and determine what your home 
+will most likely sell for on the open market. This determination is based on the 
+condition, age, location, as well as what similar homes in your area have sold for.
+
+Learning about the neighborhood is a great way to help you learn about real estate 
+property values. Schools, proximity to shopping, lot sizes, and neighborhood amenities 
+like parks and playgrounds are important to take into consideration, and affect a home's 
+value. Some locations are scheduled for renovations or are in the middle of developments. 
+If there are scheduled developments such as a new shopping mall, new schools, or other 
+forms of entertainment, these things all add to the real estate property values.
+
+
+Technologies List
+    Python or Node.js
+    HTML
+    CSS
+    Javascript
+    GIT Version Management
+    Heroku Deloyment
+    API / HTTP methods
+    Webscraping
+
+
+
+Host on Heroku
+    No DB Connection, so no data persistence
+    Automate Opportunity/Lead Emails
+
+
+Webscraping
+    https://www.codementor.io/hirenpatel545/5-best-javascript-web-scraping-libraries-and-tools-sicow2rx9
+
+
+
+Free APIs
+    https://www.cleveroad.com/blog/real-estate-apis
+    https://blog.rapidapi.com/best-real-estate-apis/
+    https://rapidapi.com/collection/best-real-estate-apis 
+	https://www.programmableweb.com/api/zillow
+	https://www.programmableweb.com/api/asc-national-registry-search
+	https://www.programmableweb.com/api/estated-data
+	https://www.programmableweb.com/api/zilpy-rent-estimate
+
+
+
+Research
+    https://www.carletonsheets.com/resources/articles/real-estate-investing-general/property-research-articles/how-to-research-real-estate-property-values.html
+
+Key Functional Requirements
+
+
+[
+  Property {
+    property_id: 'M5402545097',
+    listing_id: '2916869605',
+    prop_status: 'for_sale',
+    price: 145000,
+    prop_type: 'single_family',
+    web_url: 'https://www.realtor.com/realestateandhomes-detail/9005-Hilton-Hill-Ter_Lanham_MD_20706_M54025-45097',
+    photo_url: undefined,
+    baths_full: 2,
+    baths: 3,
+    beds: 4,
+    size: 1080,
+    units: 'sqft',
+    last_update: '2020-06-03T10:56:31Z'
+  },
+  Property {
+    property_id: 'M6505558909',
+    listing_id: '2916869610',
+    prop_status: 'for_sale',
+    price: 299000,
+    prop_type: 'single_family',
+    web_url: 'https://www.realtor.com/realestateandhomes-detail/7106-Hawthorne-St_Landover_MD_20785_M65055-58909',
+    photo_url: undefined,
+    baths_full: 2,
+    baths: 2,
+    beds: 4,
+    size: 1261,
+    units: 'sqft',
+    last_update: '2020-06-03T10:57:33Z'
+  },
+  Property {
+    property_id: 'M5187869483',
+    listing_id: '2916869609',
+    prop_status: 'for_sale',
+    price: 3122800,
+    prop_type: 'single_family',
+    web_url: 'https://www.realtor.com/realestateandhomes-detail/6013-Oakdale-Rd_McLean_VA_22101_M51878-69483',
+    photo_url: undefined,
+    baths_full: 6,
+    baths: 8,
+    beds: 6,
+    size: 7292,
+    units: 'sqft',
+    last_update: '2020-06-03T10:54:24Z'
+  },
+  Property {
+    property_id: 'M5005764335',
+    listing_id: '2916869360',
+    prop_status: 'for_sale',
+    price: 725000,
+    prop_type: 'condo',
+    web_url: 'https://www.realtor.com/realestateandhomes-detail/1308-Trinidad-Ave-NE_Washington_DC_20002_M50057-64335',
+    photo_url: undefined,
+    baths_full: 2,
+    baths: 2,
+    beds: 3,
+    size: 1614,
+    units: 'sqft',
+    last_update: '2020-06-03T10:49:09Z'
+  },
+  Property {
+    property_id: 'M6718310878',
+    listing_id: '2916868940',
+    prop_status: 'for_sale',
+    price: 439900,
+    prop_type: 'single_family',
+    web_url: 'https://www.realtor.com/realestateandhomes-detail/10523-Sweepstakes-Rd_Damascus_MD_20872_M67183-10878',
+    photo_url: undefined,
+    baths_full: 3,
+    baths: 3,
+    beds: 4,
+    size: 2670,
+    units: 'sqft',
+    last_update: '2020-06-03T10:42:49Z'
+  }
